@@ -32,6 +32,9 @@ WHERE NOT length > 50 AND NOT (rental_rate = 2.99 OR rental_rate = 4.99);
 ```
 
 HOMEWORK 2
+
+</br>
+
  1-film tablosunda bulunan tüm sütunlardaki verileri replacement cost değeri 12.99 dan büyük eşit ve 16.99 küçük olma koşuluyla sıralayınız ( BETWEEN - AND yapısını kullanınız.)
 ``` 
 select * from film where replacement_cost between 12.99 and 16.99;
