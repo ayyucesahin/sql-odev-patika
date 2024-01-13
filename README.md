@@ -24,6 +24,7 @@ SELECT last_name FROM customer
 WHERE first_name = "Mary";
 ```
 </br>
+
 5- Arrange the data in the film table that is NOT greater than 50 in length and at the same time does NOT have a rental_rate value of 2.99 or 4.99.
 ```5 -
 SELECT * FROM film
